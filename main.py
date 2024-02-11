@@ -3,7 +3,7 @@ from urllib.parse import urlparse, parse_qs
 
 # Для начала определим настройки запуска
 hostName = "localhost" # Адрес для доступа по сети
-serverPort = 8082 # Порт для доступа по сети
+serverPort = 8000 # Порт для доступа по сети
 
 
 class MyServer(BaseHTTPRequestHandler):

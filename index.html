@@ -41,7 +41,7 @@
             height: -webkit-fill-available;
             max-height: 100vh;
             overflow-x: auto;
-            overflow-y: hidden;
+            overflow-y: auto;
         }
 
         .b-example-divider {
@@ -345,63 +345,64 @@
                         </div>
                     </div>
                 </div>
+                <table class="table table-striped-columns table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за штуку</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Смартфон</td>
+                        <td>1500</td>
+                        <td>10</td>
+                        <td>15000</td>
+                        <td>
+                            <div class="alert alert-info" role="alert">Новый</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ноутбук</td>
+                        <td>1000</td>
+                        <td>5</td>
+                        <td>5000</td>
+                        <td>
+                            <div class="alert alert-warning" role="alert">Обработка</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Телевизор</td>
+                        <td>1000</td>
+                        <td>4</td>
+                        <td>4000</td>
+                        <td>
+                            <div class="alert alert-success" role="alert">Обработан</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Мышки</td>
+                        <td>200</td>
+                        <td>10</td>
+                        <td>2000</td>
+                        <td>
+                            <div class="alert alert-danger" role="alert">Отмена</div>
+                        </td>
+                    </tr>
+                    </tbody>
+
+                </table>
             </div>
         </main>
-        <table class="table table-striped-columns table-hover">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Название товара</th>
-                <th scope="col">Цена за штуку</th>
-                <th scope="col">Количество</th>
-                <th scope="col">Итоговая сумма</th>
-                <th scope="col">Статус заказа</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Смартфон</td>
-                <td>1500</td>
-                <td>10</td>
-                <td>15000</td>
-                <td>
-                    <div class="alert alert-info" role="alert">Новый</div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Ноутбук</td>
-                <td>1000</td>
-                <td>5</td>
-                <td>5000</td>
-                <td>
-                    <div class="alert alert-warning" role="alert">Обработка</div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Телевизор</td>
-                <td>1000</td>
-                <td>4</td>
-                <td>4000</td>
-                <td>
-                    <div class="alert alert-success" role="alert">Обработан</div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4</th>
-                <td>Мышки</td>
-                <td>200</td>
-                <td>10</td>
-                <td>2000</td>
-                <td>
-                    <div class="alert alert-danger" role="alert">Отмена</div>
-                </td>
-            </tr>
-            </tbody>
 
-        </table>
 
     </div>
 
